@@ -1,1 +1,1 @@
-# Studies
+# Studies-JavaScript
