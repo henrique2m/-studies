@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- 
+        Desenvolva um código em Javascript que receba o nome de uma pessoa, o peso e altura. 
+        Faça os devidos cálculos do IMC(Índice de massa corporal) e retorne: 
+        o IMC com uma mensagem de recomendação de acordo com o IMC obtido.
+ -->
+<html lang="pt-br">
+    <head>
+        <title> IMC </title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles.css"/>
+        <script src='./main.js'></script>
+        
+    </head>
+<body>
+    <div class="container">
+        <div>
+            <header>
+                <h1>Vamos descobrir o seu IMC?</h1>
+            </header>
+
+            <section>
+                <form>
+                    <span id="info"></span>
+                    <input type="text" placeholder="Nome" name="name" id="name"/>
+                    <input type="text" placeholder="Peso em quilogramas" name= "weight" id="weight" />
+                    <input type="text" placeholder="Altura em metros" name="height" id="height"/>
+
+                    <button type="button" onclick="handleUserIMC()"> CALCULAR </button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div id="popup"></div>
+</body>
+</html>
