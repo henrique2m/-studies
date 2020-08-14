@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- 
+        Desenvolva uma calculadora simples utilizando Javascript para efetuar as seguintes operações: 
+        soma, subtração, multiplicação e divisão. Utilize CSS para estilizar os botões, além disso, 
+        caso o resultado da operação seja negativo, exibir o valor em vermelho, caso contrário, em azul.
+     -->
+     <!-- Observação: a calculadora só ira considerar números inteiros. -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles.css"/>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+<body onload="handleCalculator()">
+    <div class="container">
+        <div class="main">
+            <div id="calculator-screen"> 
+                <div id="display">0</div>
+            </div>
+            <div id="calculator-keyboard"> 
+                <section>
+                    <ul id="box-numbers"></ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
